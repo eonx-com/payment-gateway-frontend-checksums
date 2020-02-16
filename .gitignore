@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+index.html
+doc/.vuepress/dist
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+.rpt2_cache
+yarn-error.log
