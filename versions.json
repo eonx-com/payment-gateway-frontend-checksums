@@ -1,9 +1,12 @@
-{ 
-    "versions":[
-        {
-            "shasum": "4a13b10d011ebb3089cb5baf3cfcdffa83de3e66",
-            "version": "1.12.0"
-        }
-        
-    ]
+{
+  "versions": [
+    {
+      "shasum": "4a13b10d011ebb3089cb5baf3cfcdffa83de3e66",
+      "version": "1.12.0"
+    },
+    {
+      "shasum": "36b5931f5d23c5ccac267d9d542c930192d536e8cc707511fd983d2c195bf5ce",
+      "version": "1.13.0"
+    }
+  ]
 }
