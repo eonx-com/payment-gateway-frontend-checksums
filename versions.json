@@ -1,9 +1,14 @@
-{ 
-    "versions":[
-        {
-            "shasum": "4a13b10d011ebb3089cb5baf3cfcdffa83de3e66",
-            "version": "1.12.0"
-        }
-        
-    ]
+{
+  "1.12.0": [
+    {
+      "eoneo-pay.common.js": "765bc3cdd29725608b76df889d4587403cc3b8cd4ddf63df6bad9dc4e80dc97b",
+      "eoneo-pay.common.min.js": "bedb2d27a14a810bd6f7995c14bca03a640b94b197aca4a10ddf75bf47d27314",
+      "eoneo-pay.iife.js": "e17ccbbfdd17f871dc846ab4376f148497c098ea09dd2154f7f7b8bc370c8869"
+    }
+  ],
+  "1.13.0": {
+    "eoneo-pay.common.js": "765bc3cdd29725608b76df889d4587403cc3b8cd4ddf63df6bad9dc4e80dc97b",
+    "eoneo-pay.common.min.js": "bedb2d27a14a810bd6f7995c14bca03a640b94b197aca4a10ddf75bf47d27314",
+    "eoneo-pay.iife.js": "e17ccbbfdd17f871dc846ab4376f148497c098ea09dd2154f7f7b8bc370c8869"
+  }
 }
