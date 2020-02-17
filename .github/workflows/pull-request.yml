@@ -12,4 +12,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PULL_REQUEST_BRANCH: "master"
           BRANCH_PREFIX: "version/"
-          PULL_REQUEST_BODY: "Pull Request for $BRANCH"
