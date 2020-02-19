@@ -40,8 +40,9 @@ The version.json file will list the semantic version, and hashes for each file f
 
 ***We are using `sha256` hashes, these are based on the file content, any updates to the JS files should cause a new hash to be generated***
 
-If for whatever reason the hash appears to be incorrect, you can verify it from the command line by running the following in the [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/) repo;
+If for whatever reason the hash appears to be incorrect, you can verify it from the command line by running the following in your checked out copy of the [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/) repo;
 ```shell script
+$ cd eoneo-js-sdk-v2
 $ sha256sum dist/*
  
 Piogh3Hiqu6ieCoh7aif6TeingahxieB5oaH2jae7eudeiz1eiSh8eoquuasah2ze  dist/eoneo-pay.common.js
