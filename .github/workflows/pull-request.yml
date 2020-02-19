@@ -1,5 +1,8 @@
 name: Pull Request on Branch Push
-on: push
+on:
+  push:
+    branches:
+    - 'RELEASE/*'
 
 jobs:
   auto-pull-request:
