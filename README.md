@@ -2,7 +2,7 @@
 
 Registry of file hashes taken for each published version of the [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/).
 
-**Note:** ***Payment Gateway is the new name for Eoneo***
+**Note:** ***Payment Gateway is an alias for Eoneo***
 
 ## Description
 
