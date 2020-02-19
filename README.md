@@ -1,7 +1,6 @@
 # Payment Gateway - Checksums
 
-Registry of file hashes taken for each published version of the JS SDK.
-
+Registry of file hashes taken for each published version of the Payment Gateway JS SDK [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/).
 
 ## Description
 
@@ -39,9 +38,11 @@ The version.json file will list the sem version, and hashes for each file found 
 
 ## Pull Request workflow
 
-Pull requests made against this repo are only created automatically, they will need a senior staff member to merge the pull request into the master branch.
+Pull requests are automatically made when a branch matching the `RELEASE/*` pattern is pushed to, each pull request will need a senior staff member to review and merge into the master branch.
 
-Once the pull request is merged into the master branch, the version.json file will become available for the Payment Gateway Checksum Lambda to verify against.  
+The branch will be generated, have the updated version.json file committed, and pushed by the Github Action running on the [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/) repo.
+ 
+Once the pull request is merged into the master branch, the version.json file will become available for the [Payment Gateway - Serverless Checksum Lambda](https://github.com/eonx-com/payment-gateway-checksums-serverless) to verify against.  
 
 **Note:** ***False positives may occur for about 10 minutes after merging as the the GitHub supplied [RAW](https://raw.githubusercontent.com/eonx-com/payment-gateway-frontend-checksums/master/versions.json) URL is cached.***
 
