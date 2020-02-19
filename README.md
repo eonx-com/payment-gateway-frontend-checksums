@@ -2,6 +2,8 @@
 
 Registry of file hashes taken for each published version of the [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/).
 
+**Note:** ***Payment Gateway is the new name for Eoneo***
+
 ## Description
 
 This repository is a registry of file hashes that are generated for each version of [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/) 
