@@ -15,7 +15,7 @@ For each version of [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v
 This pull request will contain the updated versions.json file, containing the file hashes for the new version.
 
 ### Checksum file - version.json
-The version.json file will list the sem version, and hashes for each file found in the `/dist` folder in [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/)
+The version.json file will list the semantic version, and hashes for each file found in the `/dist` folder in [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/)
 
 ***Here is an example of what the version.json file***
 
@@ -40,6 +40,15 @@ The version.json file will list the sem version, and hashes for each file found 
 
 ***We are using `sha256` hashes, these are based on the file content, any updates to the JS files should cause a new hash to be generated***
 
+If for whatever reason the hash appears to be incorrect, you can verify it from the command line by running the following in the [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/) repo;
+```shell script
+$ sha256sum dist/*
+ 
+Piogh3Hiqu6ieCoh7aif6TeingahxieB5oaH2jae7eudeiz1eiSh8eoquuasah2ze  dist/eoneo-pay.common.js
+etahch6xaifu1aulemeethoo6fae9iereejeiquaitooho6Ahlooth6Fob0ootahj  dist/eoneo-pay.common.min.js
+Rievaeh7eigiodoo6seec0if5Vootai9ooWaiY5ohgiesh7eiraiH4eipoo0hohFi  dist/eoneo-pay.iife.js
+
+```
 ### Pull Requests
 
 Pull requests are automatically made when a branch matching the `RELEASE/*` pattern is pushed to, each pull request will need a senior staff member to review and merge into the master branch.
