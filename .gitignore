@@ -4,7 +4,7 @@ index.html
 doc/.vuepress/dist
 
 # Editor directories and files
-.idea
+.idea*
 .vscode
 *.suo
 *.ntvs*

@@ -35,7 +35,7 @@ The version.json file will list the sem version, and hashes for each file found 
 ```
 
 - Each version in the JSON file has to be unique.
-- Hashes may appear more than once, as we cannot ensure that all the files will change. ***In the example above you can see the hash is the same for the first file across both versions.***
+- Hashes may appear more than once, as we cannot ensure that all the files will change. In the example above you can see the hash is the same for the first file `eoneo-pay.common.js` across both versions.
 
 ## Pull Request workflow
 
