@@ -36,7 +36,7 @@ The version.json file will list the sem version, and hashes for each file found 
 - Each version in the versions.json file has to be unique.
 - Hashes are not unique and may appear more than once, as the files may not change. As an example, above you can see the hash is the same for the first file `eoneo-pay.common.js` across both versions.
 
-***We are using sha256 to generate the hash based on the file contents, any updates should cause a new hash to be generated***
+***We are using `sha256` hashes, these are based on the file content, any updates to the JS files should cause a new hash to be generated***
 
 ### Pull Requests
 
