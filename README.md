@@ -39,7 +39,7 @@ The version.json file will list the semantic version, and hashes for each file f
 - Hashes are not unique and may appear more than once, as the files may not change. As an example, above you can see the hash is the same for the first file `eoneo-pay.common.js` across both versions.
 
 ***We are using `sha256` hashes, these are based on the file content, any updates to the JS files should cause a new hash to be generated***
-
+### Debugging
 If for whatever reason the hash appears to be incorrect, you can verify it from the command line by running the following in your checked out copy of the [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/) repo;
 ```shell script
 $ cd eoneo-js-sdk-v2
