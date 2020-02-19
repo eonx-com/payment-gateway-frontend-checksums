@@ -1,12 +1,12 @@
 # Payment Gateway - Checksums
 
-Registry of file hashes taken for each published version of the Payment Gateway JS SDK [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/).
+Registry of file hashes taken for each published version of the [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/).
 
 ## Description
 
-This repository is a registry for file hashes, generated for each version of the JS SDK. a version.json file, this file is used as a source of truth for the Checksum Lambda.
+This repository is a registry of file hashes that are generated for each version of [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/) 
 
-For each new version of [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/) that is published, a branch and pull-request will be created against this repo.
+For each version of [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/) that is published, a branch and pull-request will be created against this repo.
 
 - Branches and pull-requests are using the following naming; `RELEASE/{VERSION}` e.g. `RELEASE/1.12.0`
 
@@ -36,7 +36,7 @@ The version.json file will list the sem version, and hashes for each file found 
 - Each version in the JSON file has to be unique.
 - Hashes may appear more than once, as we cannot ensure that all the files will change. In the example above you can see the hash is the same for the first file `eoneo-pay.common.js` across both versions.
 
-## Pull Request workflow
+## Pull Requests
 
 Pull requests are automatically made when a branch matching the `RELEASE/*` pattern is pushed to, each pull request will need a senior staff member to review and merge into the master branch.
 
