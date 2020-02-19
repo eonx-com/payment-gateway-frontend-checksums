@@ -15,7 +15,7 @@ This pull request will contain the updated versions.json file, containing the fi
 ### Checksum file - version.json
 The version.json file will list the sem version, and hashes for each file found in the `/dist` folder in [Eoneo JS SDK v2](https://github.com/eonx-com/eoneo-js-sdk-v2/)
 
-***Here is an example of what the version.json file should look like.***
+***Here is an example of what the version.json file***
 
 ```json
 {
@@ -33,8 +33,8 @@ The version.json file will list the sem version, and hashes for each file found 
 
 ```
 
-- Each version in the JSON file has to be unique.
-- Hashes may appear more than once, as we cannot ensure that all the files will change. In the example above you can see the hash is the same for the first file `eoneo-pay.common.js` across both versions.
+- Each version in the versions.json file has to be unique.
+- Hashes are not unique and may appear more than once, as the files may not change. As an example, above you can see the hash is the same for the first file `eoneo-pay.common.js` across both versions.
 
 ***We are using sha256 to generate the hash based on the file contents, any updates should cause a new hash to be generated***
 
